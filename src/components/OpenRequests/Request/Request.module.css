@@ -1,3 +1,11 @@
-.Request {
-    
+tr{
+    font-size: 1.9em;
+    display: flex;
+    justify-content: space-around;
 }
+
+tr > td {
+    width: 100%;
+    margin: 20px auto;
+}
+

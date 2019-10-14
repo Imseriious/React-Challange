@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Homepage from './containers/HomePage/HomePage';
 import NewRequest from './containers/NewRequest/NewRequest';
-import Request from './containers/Request/Request.js';
 import NavBar from './components/NavBar/NavBar';
+import RequestDetails from './components/RequestDetails/RequestDetails';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
           <NavBar />
           <Route exact path="/" component={Homepage} />
           <Route path="/newrequest" component={NewRequest} />
-          <Route path="/request:id" component={Request} />
+          <Route path="/request/:id" component={RequestDetails} />
         </div>
       </Router>
   );
