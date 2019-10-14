@@ -1,0 +1,15 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: aliceblue;
+}
+
+.Nav > Button {
+    all: unset;
+    cursor: pointer;
+}
+
+.Nav > h2 {
+    font-weight: lighter;
+}
